@@ -16,7 +16,6 @@ class Hangman
         ["celebrate", "remembering special moments"],
         ["continent", "there are 7 of these"],
         ["exotic", "not from around here.."],
-        ["linux","a os created by linus torvalds"],
     ]
     end
 
