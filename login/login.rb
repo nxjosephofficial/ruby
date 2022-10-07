@@ -12,11 +12,11 @@ def login()
     $uid = gets.chomp()
     puts "Enter PW:"
     $upw = gets.chomp()
-    puts $id
-    puts $pw
     if $id == $uid
         if $pw == $upw
             puts "Login successful."
+	else
+            puts "Login failed."
         end
     else
         puts "Login failed."
